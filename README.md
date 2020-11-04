@@ -2,6 +2,8 @@
 
 Сайт создавался по макету https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0.
 
+Ссылка на github pages: https://kateaedon.github.io/russian-travel/
+
 Я стремилась создать сайт, который будет адаптироваться под разные устройства пользователей. 
 
 План по доработке:
