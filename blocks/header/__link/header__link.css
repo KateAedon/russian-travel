@@ -1,0 +1,21 @@
+.header__link {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
+
+@media all and (max-width: 320px) {
+    .header__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
