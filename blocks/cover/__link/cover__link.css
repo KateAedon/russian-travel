@@ -1,11 +1,10 @@
 .cover__link {
     width: 1184px;
-    height: 740px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
     background-image: url('../../../images/cover__background.jpg');
     background-position: center;
     box-sizing: border-box;
@@ -27,7 +26,7 @@
  }
  
  .cover__link:hover {
-     opacity: 0.8;  
+     opacity: 0.8;
      transition: opacity 2s linear;
  }
 
