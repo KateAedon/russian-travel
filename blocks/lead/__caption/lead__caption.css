@@ -8,13 +8,14 @@
     text-transform: uppercase;
 }
 
-@media all and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
     .lead__caption {
         padding-left: 24px;
     }
 }
 
-@media all and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .lead__caption {
         padding-left: 16px;
     }

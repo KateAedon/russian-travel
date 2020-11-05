@@ -1,26 +1,21 @@
 .intro {
-    max-width: 690px;
-    height: 429px;
-    color: #FFFFFF;
-    padding-left: 148px;
-    padding-bottom: 92px;
-    margin-top: 0;
-    padding-top: 0;
+    width: 77%;
+    margin: 92px auto;
+    display: flex;
+    flex-direction: column;
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .intro {
         padding-bottom: 88px;
-        height: auto;
         padding-left: 24px;
     }
 }
 
-@media all and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .intro {
         max-width: 288px;
         padding-bottom: 64px;
-        height: auto;
         padding-left: 16px;
 
     }
