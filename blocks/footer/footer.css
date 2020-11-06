@@ -1,6 +1,5 @@
 .footer {
     max-width: 1184px;
-    max-height: 18px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 24px;
@@ -29,8 +28,7 @@
 @media screen and (max-width: 320px) {
     .footer {
         display: inline-block;
-        width: 186px;
-        max-height: 310px;
+        max-width: 186px;
         padding-left: 16px;
         font-size: 24px;
         line-height: 24px;
