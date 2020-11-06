@@ -27,5 +27,4 @@
 .cover__image:hover {
     opacity: 0.8;
     transition: opacity 2s linear;
-    }
 }
