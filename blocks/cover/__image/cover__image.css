@@ -6,10 +6,10 @@
     object-fit: cover;
     height: 100%;
     display: flex;
+    z-index: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 1;
 }
 
 .cover__image::before {
@@ -24,7 +24,7 @@
     transition: linear 2s;
 }
 
-.cover__image:hover {
+
+.cover__image:hover::before {
     opacity: 0.8;
-    transition: opacity 2s linear;
 }

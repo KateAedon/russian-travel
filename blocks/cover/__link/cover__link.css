@@ -1,4 +1,26 @@
 .cover__link {
     color: #FFFFFF;
     text-decoration: none;
+    height: 100%;
+    min-height: 740px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    z-index: 3;
+    background: rgba(42, 44, 47, 0.3);
+    transition: 0.3s linear;
+}
+
+.cover:hover .cover__link {
+    background: rgba(42, 44, 47, 0.8);;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        min-height: calc(100vw / 1.6);
+    }
 }
