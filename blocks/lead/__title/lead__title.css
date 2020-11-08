@@ -11,7 +11,8 @@
     .lead__title {
         width: auto;
         font-size: 11vw;
-        line-height: 100px;
+        line-height: 1.2em;
+        margin: 48px 0 16px 0;
     }
 }
 
